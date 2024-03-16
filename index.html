@@ -5,22 +5,42 @@
 	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 <title>Francesco Di Stasio</title>
 </head>
+
 <body>
     <div class="main">
         <div class="center">
             <img class="profile-pic" alt="me" src="img/me.jpeg">
             <h2> Francesco Di Stasio </h2>
-            <h4> Computer Science Student <br> University of Pisa, Italy </h4>
+            <div id="typing-effect"></div>
+
+            <script>
+                var text = "Computer Science Student. University of Pisa, Italy.";
+                var speed = 80; 
+                let i = 0;
+        
+                function typeWriter() {
+                    if (i < text.length) {
+                        document.getElementById("typing-effect").innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, speed);
+                    }
+                }
+                window.onload = function() {
+                    typeWriter();
+                };
+            </script>
+
             <div class="col">
                 <a class= "refs" href="about.html">About</a>
                 <a class= "refs" href="contacts.html">Contacts</a>        
             </div>
         </div>
     </div>
+
     <footer> 
 
         <small>
-            Copyright &copy; 2023, Francesco Di Stasio 
+            &copy; 2024 Francesco Di Stasio 
         </small> 
     </footer> 
 </body>
