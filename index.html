@@ -1,39 +1,17 @@
 <html>
-
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/typeit@7/dist/typeit.min.js"></script>
-
+    <script src="js/typing_effect.js"></script>
 <title>Francesco Di Stasio</title>
 </head>
+
 <body>
     <div class="main">
         <div class="center">
             <img class="profile-pic" alt="me" src="img/me.jpeg">
             <h2> Francesco Di Stasio </h2>
             <div id="typing-effect"></div>
-
-            <script>
-                var text = "Computer Science Student. University of Pisa, Italy.";
-                var speed = 80;
-
-                function initTypeit() {
-                    new TypeIt("#typing-effect", {
-                        strings: text,
-                        speed: speed,
-                        lifeLike: true,
-                        cursorSpeed: 1000,
-                        waitUntilVisible: true
-                    }).go();
-                }
-
-                window.onload = function() {
-                    initTypeit();
-                };
-                
-            </script>
-
             <div class="col">
                 <a class= "refs" href="about.html">About</a>
                 <a class= "refs" href="contacts.html">Contacts</a>        
