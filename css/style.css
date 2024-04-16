@@ -5,7 +5,6 @@ html{
   font-weight: 500;
 }
 
-
 .main {
   height:100%;
   display: flex;
@@ -78,7 +77,7 @@ img {
     vertical-align: middle;
 }
 
-#about {
+.about {
   text-align: left;
   font-size: 17px;
   font-weight: 400;
@@ -130,4 +129,12 @@ p{
 
 small {
   color: #87878d;
+}
+
+.about a {
+  color:rgb(56, 192, 255);
+}
+
+.about a:hover {
+  color: white;
 }
