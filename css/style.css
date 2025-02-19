@@ -13,6 +13,7 @@ html {
   justify-content: center;
   color: #a9a9b3;
   padding: 20px;
+  flex-direction: column;
 }
 
 .center {
@@ -178,4 +179,10 @@ small {
 article {
   padding: 0;
   margin: 0;
+}
+
+#graph {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #a9a9b3;
 }
