@@ -17,7 +17,7 @@ html {
 }
 
 .center {
-  width: 600px;
+  width: 40%;
   min-height: 80vh;
   text-align: center;
 }
@@ -182,7 +182,18 @@ article {
 }
 
 #graph {
-  width: 600px;
+  width: 100%;
   height: 600px;
   border: 1px solid #a9a9b3;
+}
+
+@media (max-width: 768px) {
+  .center {
+    width: 90%;
+  }
+
+  #graph {
+    width: 90%;
+    height: 300px;
+  }
 }
